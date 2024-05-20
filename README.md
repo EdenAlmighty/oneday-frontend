@@ -10,19 +10,19 @@ For those of you who are already familliar with Monday, we added some intersting
 If you are not familliar with the App, read about it [here](#ounday-description).
 And if you are tired and just want to see some images of the website, [scroll to the bottom...](#showcase)
 
-![Main board image](/src/assets/img/FundayBoard.png "Board-main-page")
+![Main board image](/src/assets/img/onedayBoard.png "Board-main-page")
 
 ___
 
 ### Table of Contents
-- [ounday Description](#funday-description)
+- [ounday Description](#oneday-description)
 - [Application Features](#application-features)
 - [Technologies](#technologies)
 - [Getting started](#getting-started)
 - [Showcase](#showcase)
 
-## Funday Description
-Funday (Monday clone) is a work operating system and project management platform designed to help teams collaborate and manage tasks. It provides a visual and customizable interface for planning, tracking, and organizing work, allowing teams to streamline their workflows, communicate effectively, and stay organized. Funday is used by businesses and teams of various sizes to enhance project management and team collaboration.
+## oneday Description
+oneday (Monday clone) is a work operating system and project management platform designed to help teams collaborate and manage tasks. It provides a visual and customizable interface for planning, tracking, and organizing work, allowing teams to streamline their workflows, communicate effectively, and stay organized. oneday is used by businesses and teams of various sizes to enhance project management and team collaboration.
 
 ## Application Features
 - Create ***Boards*** and manage projects: Utilize ***Drag and Drop (D&D)*** functionality to seamlessly create, remove, and update groups and tasks.
@@ -49,8 +49,8 @@ The layout and pixel-perfect were made with SASS (functions, mixins, variables).
 Head to the repository on top and clone the project or download the files.
 
 ```
-git clone https://github.com/galbarcessat/funday.git
-git clone https://github.com/galbarcessat/funday-backend.git
+git clone https://github.com/galbarcessat/oneday.git
+git clone https://github.com/galbarcessat/oneday-backend.git
 ```
 
 Enter the backend folder and make sure you have node_modules installed. After that we will initiate the server with 'npm start':
@@ -77,32 +77,32 @@ That's it! The App should be opened automatically, enjoy!
 ### Homepage
 The landing page in which the user can sign up / login, or press the call to action button to start demo if the are limited with time.
 
-![Homepage image](src/assets/img/FundayHomePage.png "Home-page")
+![Homepage image](src/assets/img/onedayHomePage.png "Home-page")
 
 ### Workspace
 All of the user's boards. Navigate between boards.
 
-![Workspace image](src/assets/img/FundayBoardIndex.png "Workspace-page")
+![Workspace image](src/assets/img/onedayBoardIndex.png "Workspace-page")
 
 ### Board
 All the functionality that you have in Monday. D&D, live-updates, editing tasks to the deepest level, side-menu, editing board members and much more - just  [Check it out](https://oneday-8mdx.onrender.com/ "oneday link").
 
-![Main board image](/src/assets/img/FundayBoard.png "Board-main-page")
+![Main board image](/src/assets/img/onedayBoard.png "Board-main-page")
 
 ### Signup
 We created an e2e authentication flow, including encrypting the users' details, middlewears.
 
-![Login image](/src/assets/img/FundayLogin.png "login-page")
+![Login image](/src/assets/img/onedayLogin.png "login-page")
 
 ### Task details
 Here, users can review task details, engage in a chat to allow members to leave comments on task progress, monitor the activity log, and attach files relevant to the task.
-![Task details image](/src/assets/img/FundayTaskDetails.png "task-details")
+![Task details image](/src/assets/img/onedayTaskDetails.png "task-details")
 
 
 
 ### Some mobile!
 Just a taste of the mobile experience. We used different **mixins** and **conditional rendering**. 
-<img src="/src/assets/img/FundayHomeMobile.png" width="25%" style="float: left"/><img src="/src/assets/img/FundayBoardMobile.png" width="25%" style="float: left;"/><img src="/src/assets/img/FundayTaskDetailsMobile.png" width="25%" style="float: left;"/><img src="/src/assets/img/FundayDashboardMobile.png" width="25%" style="float: left;"/>
+<img src="/src/assets/img/onedayHomeMobile.png" width="25%" style="float: left"/><img src="/src/assets/img/onedayBoardMobile.png" width="25%" style="float: left;"/><img src="/src/assets/img/onedayTaskDetailsMobile.png" width="25%" style="float: left;"/><img src="/src/assets/img/onedayDashboardMobile.png" width="25%" style="float: left;"/>
 
 
 ### Authors
