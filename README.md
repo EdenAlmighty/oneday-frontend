@@ -10,7 +10,7 @@ For those of you who are already familliar with Monday, we added some intersting
 If you are not familliar with the App, read about it [here](#oneday-description).
 And if you are tired and just want to see some images of the website, [scroll to the bottom...](#showcase)
 
-![Main board image](/src/assets/img/onedayBoard.png "Board-main-page")
+![Main board image](https://res.cloudinary.com/die0jjugu/image/upload/v1716232803/oneday-img1_wjppq1.png)
 
 ___
 
@@ -31,6 +31,7 @@ oneday (Monday clone) is a work operating system and project management platform
 - Users system, along with regular authentication which is encrypted and safe.
 - Live updates with ***Web Sockets*** .
 - Visualize your project using the and dashboard.
+- Integration with ***Slack APi*** to notify when tasks are completed.
 - Introducing ***Automations*** capable of accepting conditions and executing actions when the set conditions are met.
 - And a lot more exciting things - check it out [Live demo here](https://oneday-8mdx.onrender.com/ "oneday link").
 
@@ -41,7 +42,7 @@ The technology stack we used was MERN - MongoDB, Express, React, Node.js.
 The app uses webSockets to update the board in real-time.
 The API calls to the backend are done with the REST API method , and we used middlewares to authenticate and authorize actions.
 
-We have used many thirs side libraries for many goals, such as the cloudinary, monday-ui-style ,react-particles-js, D&D and more.
+We have used many third side libraries for many goals, such as the cloudinary, monday-ui-style, D&D and more.
 The layout and pixel-perfect were made with SASS (functions, mixins, variables). 
 
 ## Getting started
@@ -49,8 +50,8 @@ The layout and pixel-perfect were made with SASS (functions, mixins, variables).
 Head to the repository on top and clone the project or download the files.
 
 ```
-git clone https://github.com/galbarcessat/oneday.git
-git clone https://github.com/galbarcessat/oneday-backend.git
+git clone https://github.com/EdenAlmighty/oneday-frontend.git
+git clone https://github.com/EdenAlmighty/backend-frontend.git
 ```
 
 Enter the backend folder and make sure you have node_modules installed. After that we will initiate the server with 'npm start':
@@ -77,32 +78,27 @@ That's it! The App should be opened automatically, enjoy!
 ### Homepage
 The landing page in which the user can sign up / login, or press the call to action button to start demo if the are limited with time.
 
-![Homepage image](src/assets/img/onedayHomePage.png "Home-page")
+![Homepage image](https://res.cloudinary.com/die0jjugu/image/upload/v1716235552/oneday-img2_pdl0xn.png "Home-page")
 
 ### Workspace
 All of the user's boards. Navigate between boards.
 
-![Workspace image](src/assets/img/onedayBoardIndex.png "Workspace-page")
+![Workspace image](https://res.cloudinary.com/die0jjugu/image/upload/v1716235554/oneday-img3_hp1zda.png "Workspace-page")
 
 ### Board
 All the functionality that you have in Monday. D&D, live-updates, editing tasks to the deepest level, side-menu, editing board members and much more - just  [Check it out](https://oneday-8mdx.onrender.com/ "oneday link").
 
-![Main board image](/src/assets/img/onedayBoard.png "Board-main-page")
+![Main board image](https://res.cloudinary.com/die0jjugu/image/upload/v1716232803/oneday-img1_wjppq1.png "Board-main-page")
 
 ### Signup
 We created an e2e authentication flow, including encrypting the users' details, middlewears.
 
-![Login image](/src/assets/img/onedayLogin.png "login-page")
-
-### Task details
-Here, users can review task details, engage in a chat to allow members to leave comments on task progress, monitor the activity log, and attach files relevant to the task.
-![Task details image](/src/assets/img/onedayTaskDetails.png "task-details")
-
+![Login image](https://res.cloudinary.com/die0jjugu/image/upload/v1716235549/oneday-img4_bzb2oi.png "login-page")
 
 
 ### Some mobile!
 Just a taste of the mobile experience. We used different **mixins** and **conditional rendering**. 
-<img src="/src/assets/img/onedayHomeMobile.png" width="25%" style="float: left"/><img src="/src/assets/img/onedayBoardMobile.png" width="25%" style="float: left;"/><img src="/src/assets/img/onedayTaskDetailsMobile.png" width="25%" style="float: left;"/><img src="/src/assets/img/onedayDashboardMobile.png" width="25%" style="float: left;"/>
+<img src="https://res.cloudinary.com/die0jjugu/image/upload/v1716235549/oneday-img5_2_zjamax.png" width="25%" style="float: left;"/>
 
 
 ### Authors
