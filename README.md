@@ -7,7 +7,7 @@ oneday is a full stack web application inspired by Monday that replicates the co
 
 
 For those of you who are already familliar with Monday, we added some intersting and unique [features](#application-features).
-If you are not familliar with the App, read about it [here](#ounday-description).
+If you are not familliar with the App, read about it [here](#oneday-description).
 And if you are tired and just want to see some images of the website, [scroll to the bottom...](#showcase)
 
 ![Main board image](/src/assets/img/onedayBoard.png "Board-main-page")
@@ -15,7 +15,7 @@ And if you are tired and just want to see some images of the website, [scroll to
 ___
 
 ### Table of Contents
-- [ounday Description](#oneday-description)
+- [oneday Description](#oneday-description)
 - [Application Features](#application-features)
 - [Technologies](#technologies)
 - [Getting started](#getting-started)
