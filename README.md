@@ -51,7 +51,7 @@ Head to the repository on top and clone the project or download the files.
 
 ```
 git clone https://github.com/EdenAlmighty/oneday-frontend.git
-git clone https://github.com/EdenAlmighty/backend-frontend.git
+git clone https://github.com/EdenAlmighty/oneday-backend.git
 ```
 
 Enter the backend folder and make sure you have node_modules installed. After that we will initiate the server with 'npm start':
