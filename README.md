@@ -10,7 +10,7 @@ For those of you who are already familliar with Monday, we added some intersting
 If you are not familliar with the App, read about it [here](#oneday-description).
 And if you are tired and just want to see some images of the website, [scroll to the bottom...](#showcase)
 
-![Main board image](https://res.cloudinary.com/die0jjugu/image/upload/v1716232803/oneday-img1_wjppq1.png)
+![Main board image](https://res.cloudinary.com/die0jjugu/image/upload/v1716236318/oneday-board_nbg3j3.png)
 
 ___
 
@@ -83,12 +83,12 @@ The landing page in which the user can sign up / login, or press the call to act
 ### Workspace
 All of the user's boards. Navigate between boards.
 
-![Workspace image](https://res.cloudinary.com/die0jjugu/image/upload/v1716235554/oneday-img3_hp1zda.png "Workspace-page")
+![Workspace image](https://res.cloudinary.com/die0jjugu/image/upload/v1716236316/oneday-workspace_tczqjt.png)
 
 ### Board
 All the functionality that you have in Monday. D&D, live-updates, editing tasks to the deepest level, side-menu, editing board members and much more - just  [Check it out](https://oneday-8mdx.onrender.com/ "oneday link").
 
-![Main board image](https://res.cloudinary.com/die0jjugu/image/upload/v1716232803/oneday-img1_wjppq1.png "Board-main-page")
+![Main board image](https://res.cloudinary.com/die0jjugu/image/upload/v1716236318/oneday-board_nbg3j3.png)
 
 ### Signup
 We created an e2e authentication flow, including encrypting the users' details, middlewears.
